@@ -1,36 +1,47 @@
-# Projet de compilation avancée 2024
+# Advanced Compilation Project 2024
 
-## Comment utiliser le plugin donné 
+## Topic
+
+Implementation of a static function analysis to detect potential issues in MPI collectives as a GCC plugin.
+
+## Prerequisites
+
+To use the plugin, you need:
+- GCC 12.2.0 (Functionality with other versions is not guaranteed)
+- MPI
+
+## How to Use the Provided Plugin
 
 ```bash
-make all
+make
+
 ```
-Pour compiler le plugin et compiler les 6 programmes de test.
+To compile the plugin and the 6 test programs.
 
 ```bash
 make testN
 ```
-Pour compiler le programme testN (voir le dossier tests)
+To compile the test program `testN` (see the `tests` folder).
 
 ```bash
 make debug
 ```
-Pour compiler le plugin en mode "Debug" (Rajout de print dans les fonctions)
+To compile the plugin in "Debug" mode (Adds print statements in functions).
 
 ```bash
 make graph
 ```
-Pour générer, à partir des .dot des graphes, un .png de représentation du graph. Voir le dossier graph
+To generate a `.png` representation of the graph from the `.dot` files. See the `graph` folder.
 
 ```bash
 make clean
 ```
-Supprime les exécutables des tests et le plugin
+Deletes the test executables and the plugin.
 
 ```bash
 make clean_all
 ```
-Supprime les exécutables des tests, le plugin, les .dot et les .png liés aux graphes.
+Deletes the test executables, the plugin, and any `.dot` and `.png` files related to the graphs.
 
 
-Projet réalisé par Lallemant Hugo & Saes-Vincensini Mickaël
+Project by Hugo Lallemant & Mickaël Saes-Vincensini
