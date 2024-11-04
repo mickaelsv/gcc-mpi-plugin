@@ -17,7 +17,7 @@ To use the plugin, make sure you have:
 - **MPI** (Message Passing Interface)
 - **Graphviz** with `dot` command (for generating graph images)
 
-⚠️ In our case, this specific version of gcc had the following alias `gcc_1220 and` `g++_1220`. You should modify the Makefile.
+⚠️ In our case, this specific version of gcc had the following alias `gcc_1220` and `g++_1220`. You should modify the Makefile.
 
 ---
 
