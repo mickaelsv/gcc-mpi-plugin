@@ -153,6 +153,12 @@ Remove all test executables, the plugin, and .dot and .png graph files:
 make clean_all
 ```
 
+## Details 
+
+A report and slides are available in the `report` folder.
+
+It is in French.
+
 ## 👥 Authors
 
 - Lallemant Hugo
@@ -163,3 +169,4 @@ make clean_all
 - `src/` - Contains the source code for the plugin.
 - `tests/` - Contains test programs to validate the plugin.
 - `graph/` - Contains `.dot` and generated`.png` files representing analysis graphs. 
+- `report` - Contains the report and presentation of the project.
